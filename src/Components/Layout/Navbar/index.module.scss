@@ -1,0 +1,41 @@
+@import "../../../colors.scss";
+
+.navBar {
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 0 6rem;
+  background: white;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    height: 2rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+    color: #757575;
+  }
+
+  // Buttons
+
+  .buttons > * {
+    margin-left: 5rem;
+  }
+  .navLink {
+    color: #757575;
+    font-size: 1.6rem;
+  }
+
+  .navLink_active {
+    background: #185abc;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+}
