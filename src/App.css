@@ -15,6 +15,14 @@ body {
     url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
       format("woff2");
 }
+
+/* @font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans"), local("OpenSans"),
+    url("./fonts/GoogleSans-Bold-v1.27.ttf") format("woff2");
+} */
 a:link,
 a:visited {
   color: black;
