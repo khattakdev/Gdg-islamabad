@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import FeaturedEvent from "./Components/FeaturedEvent";
 import Events from "./Components/events";
 import Team from "./Components/Team";
+import Partners from "./Components/Partners";
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <FeaturedEvent />
         <Events />
         <Team />
+        <Partners />
       </div>
     </Router>
   );

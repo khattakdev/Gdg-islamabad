@@ -1,0 +1,42 @@
+.partners {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 50px;
+  padding-left: 5rem;
+  .hero_head {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+
+    span {
+      color: #1a73e8;
+    }
+  }
+
+  .hero_content {
+    color: #666666;
+    margin: 1rem 0;
+
+    &:nth-child(odd) {
+      margin-bottom: 2rem;
+    }
+
+    span {
+      color: blue;
+    }
+  }
+
+  .partners_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .partner_img {
+    height: 7.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    //   width: 10rem;
+  }
+}
