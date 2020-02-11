@@ -1,5 +1,17 @@
 .grid {
   flex-grow: 1;
+  margin-bottom: 3rem !important;
+  width: 84% !important;
+  margin: 0 auto;
+}
+
+// .imgGrid {
+//   padding-left: 40px;
+// }
+.img {
+  width: 90%;
+  height: 350px;
+  margin-top: 54px;
 }
 .featured_content {
   font-size: 1.6rem;

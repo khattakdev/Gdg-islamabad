@@ -1,11 +1,15 @@
 import React from "react";
 import classes from "./index.module.scss";
 import { ReactComponent as LocationIcon } from "../../assets/marker.svg";
+import SpeakPro from "../../assets/speak_pro.png";
+import SpeakProDouble from "../../assets/speak_pro@2x.png";
 import { Grid } from "@material-ui/core";
 const index = () => {
   return (
-    <Grid alignItems="center" className={classes.grid} container spacing={12}>
-      <Grid item sm={12} md={6}></Grid>
+    <Grid alignItems="center" className={classes.grid} container>
+      <Grid className={classes.imgGrid} item sm={12} md={6}>
+        <img className={classes.img} src={SpeakPro} />
+      </Grid>
       <Grid item sm={12} md={6}>
         <div className={classes.featured_content}>
           <p className={classes.date}>8/2/2020</p>
@@ -23,7 +27,7 @@ const index = () => {
             other events as part of its community building activities.
           </p>
           <a href="#" className={classes.learn_more}>
-            Learn More
+            Register Now
           </a>
         </div>
       </Grid>

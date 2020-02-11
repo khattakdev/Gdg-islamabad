@@ -1,0 +1,79 @@
+.team {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  .hero_head {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+
+    span {
+      color: #34a853;
+    }
+  }
+
+  .hero_content {
+    color: #666666;
+    margin-bottom: 3.5em;
+  }
+
+  .team_list {
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+
+    & > * {
+      margin-right: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+// Member Box
+.member {
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e0e0e0;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+
+  &_img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: url("../../assets/team2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  &_head {
+    color: #111111;
+    font-size: 2.2rem;
+    margin: 10px 0 5px 0;
+  }
+  &_content {
+    margin-top: 2px;
+    color: #616161;
+    font-size: 1.4rem;
+  }
+  &_icons {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+  }
+  &_icon {
+    height: 20px;
+    width: 20px;
+    color: #4c6ef5;
+  }
+}

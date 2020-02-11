@@ -4,6 +4,8 @@ import "./App.css";
 import NavBar from "./Components/Layout/Navbar";
 import Header from "./Components/Header";
 import FeaturedEvent from "./Components/FeaturedEvent";
+import Events from "./Components/events";
+import Team from "./Components/Team";
 function App() {
   return (
     <Router>
@@ -11,6 +13,8 @@ function App() {
         <NavBar />
         <Header />
         <FeaturedEvent />
+        <Events />
+        <Team />
       </div>
     </Router>
   );

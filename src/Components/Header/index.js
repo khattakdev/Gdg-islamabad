@@ -1,13 +1,12 @@
 import React from "react";
 import classes from "./index.module.scss";
-import { Grid, Paper } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { ReactComponent as HeadSvg } from "../../assets/celebrate_img.svg";
 import { ReactComponent as Ownership } from "../../assets/ownership_img.svg";
 import { ReactComponent as Honesty } from "../../assets/honesty_img.svg";
 import { ReactComponent as Contentment } from "../../assets/contentment_img.svg";
 import { ReactComponent as Growth } from "../../assets/growth_img.svg";
 import { ReactComponent as Passion } from "../../assets/passion_img.svg";
-import { NavLink } from "react-router-dom";
 const index = () => {
   return (
     <header className={classes.header}>
@@ -35,16 +34,18 @@ const index = () => {
           </div>
         </Grid>
       </Grid>
-      <Grid className={classes.bottom} container spacing={2}>
+      <Grid
+        alignItems="center"
+        className={classes.bottom}
+        container
+        spacing={2}
+      >
         <Grid className={classes.bottom_hero} item xs={12} sm={4}>
           <h3 className={classes.bottom_top}>Core Values</h3>
           <p className={classes.bottom_body}>
             Google Developer Groups (GDGs) are for developers who are interested
             in Google's developer technology.
           </p>
-          <a href="#" className={classes.core_button}>
-            Learn More
-          </a>
         </Grid>
         <Grid item xs={12} sm={8}>
           <Grid
