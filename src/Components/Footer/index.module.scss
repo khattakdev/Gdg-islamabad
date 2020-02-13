@@ -1,0 +1,41 @@
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15rem;
+
+  &_hero {
+    color: #000000dd;
+    font-size: 2.5rem;
+  }
+  &_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-size: 2rem;
+      color: #3e4551;
+    }
+  }
+  .links {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    &_list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    &_primary {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #000000dd;
+      margin-bottom: 15px;
+    }
+    &_secondary {
+      margin-bottom: 10px;
+      color: #3e4551;
+      font-size: 1.8rem;
+    }
+  }
+}
