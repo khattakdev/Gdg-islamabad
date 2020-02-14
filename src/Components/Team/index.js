@@ -58,73 +58,78 @@ const index = () => {
           img={Masood}
           name="Muhammed Bin Masood"
           title="Strategic Lead"
-          facebook="https://www.facebook.com/EmmBeeEm"
+          twitter="https://twitter.com/muhammadbmasood"
+          linkedin="https://www.linkedin.com/in/muhammad-bin-masood-4535057b/"
         />
         <TeamMember
           img={Aiman}
           name="Aiman Saeed"
           title="Creative Lead"
-          facebook="www.facebook.com/aiman.azfar.saeed"
+          twitter="https://twitter.com/aimans_3"
+          linkedin="http://pk.linkedin.com/in/aimansaeed"
         />
         <TeamMember
           img={Aimen}
           name="Hufsa Munawar"
           title="Marketing Lead"
-          facebook="https://www.facebook.com/hufsa.munawar"
+          twitter="https://twitter.com/HufsaMunawar"
         />
         <TeamMember
           img={Huzaifa}
           name="Houzaif Khan"
           title="Technical LEad"
-          facebook="https://www.facebook.com/houzaif.khan"
+          twitter="https://twitter.com/HouzaifKhan?s=08"
+          linkedin="https://www.linkedin.com/in/huzaifa-habib-0250a2177"
         />
         <TeamMember
           img={Ali}
           name="Ali Naqi Rizvi"
           title="Corporate Outreach"
-          facebook="https://www.facebook.com/SyedNaqiRizvi79"
+          twitter="https://twitter.com/AliNaqiRizvi1"
+          linkedin="https://www.linkedin.com/in/syed-muhammad-ali-naqi/"
         />
         <TeamMember
           img={Qadeer}
           name="Abdul Qadeer Khan"
           title="Logistic Lead"
-          facebook="https://www.facebook.com/qadeerkhan.a7x"
+          twitter="https://www.facebook.com/qadeerkhan.a7x"
         />
         <TeamMember
           img={Ayesha}
           name="Ayesha Akhtar"
           title="Workshops Lead"
-          facebook="https://www.facebook.com/ayesha.akhtar.2095"
+          linkedin="https://www.linkedin.com/in/ayesha-akhtar-336033119/"
         />
         <TeamMember
           img={Khwaja}
           name="Ayesha Imran Khwaja"
           title="Programs Lead"
-          facebook="https://www.facebook.com/ayesha.i.khawaja"
+          twitter="https://twitter.com/AyeshaIKhawaja?s=08"
+          linkedin="https://www.linkedin.com/in/ayesha-imran-khawaja/"
         />
         <TeamMember
           img={Danial}
           name="Danial Nasir"
           title="University Outreach"
-          facebook="https://www.facebook.com/imdanial123"
         />
         <TeamMember
           img={Sarwat}
           name="Sarwat Rizvi"
           title="Social Media Lead"
-          facebook="https://www.facebook.com/syedaneha.rizvi.9"
+          twitter="https://twitter.com/isarwatrizvi_"
+          linkedin="https://www.linkedin.com/in/sarwat-rizvi-893aa418b"
         />
         <TeamMember
           img={Mashal}
           name="Mashal Riaz"
           title="Design Lead"
-          facebook="https://www.facebook.com/mashaallriaz"
+          facebook="https://twitter.com/mashaallriaz"
+          linkedin="https://www.linkedin.com/in/mashal-riaz-43a096125/"
         />
         <TeamMember
           img={Umair}
           name="Umair Bin Tahir"
           title="Volunteers Lead"
-          facebook="https://www.facebook.com/umairbintahir33447"
         />
       </div>
     </div>

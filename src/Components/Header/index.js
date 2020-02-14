@@ -28,7 +28,10 @@ const index = () => {
             <a href="#" className={classes.hero_button_learn}>
               Learn More
             </a>
-            <a href="#" className={classes.hero_button_fb}>
+            <a
+              href="https://www.facebook.com/GDGIslamabad/"
+              className={classes.hero_button_fb}
+            >
               Facebook Page
             </a>
           </div>

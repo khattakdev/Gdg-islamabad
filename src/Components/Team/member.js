@@ -18,9 +18,6 @@ const member = props => {
         <h4 className={classes.box_head}>{props.name}</h4>
         <p className={classes.box_content}>{props.title}</p>
         <div className={classes.box_icons}>
-          <a href={props.facebook}>
-            <FacebookIcon className={classes.box_icon} />
-          </a>
           <a href={props.twitter}>
             <TwitterIcon className={classes.box_icon} />
           </a>

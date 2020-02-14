@@ -47,6 +47,7 @@
   align-items: center;
   flex-direction: column;
   padding: 1rem 2rem;
+  min-width: 30rem;
 
   &_img {
     height: 120px;
@@ -63,11 +64,12 @@
     margin-top: 2px;
     color: #616161;
     font-size: 1.4rem;
+    margin-bottom: 20px;
   }
   &_icons {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 40%;
   }
   &_icon {
     height: 20px;
