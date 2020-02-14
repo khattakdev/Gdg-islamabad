@@ -59,7 +59,7 @@ const index = () => {
           >
             <Grid item xs={4} md={2}>
               <Ownership className={classes.core_icon} />
-              <p className={classes.core_icon_name}>Owner</p>
+              <p className={classes.core_icon_name}>Ownership</p>
             </Grid>
             <Grid item xs={4} md={2}>
               <Honesty className={classes.core_icon} />

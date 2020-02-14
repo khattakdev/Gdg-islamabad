@@ -3,10 +3,10 @@ import Box from "../Layout/Box";
 import { Grid } from "@material-ui/core";
 import classes from "./index.module.scss";
 
-const index = (props) => {
+const index = props => {
   return (
     <Grid xs={12} item md={4}>
-      <Box>
+      <Box className={classes.box}>
         <div className={classes.box_content}>
           <p className={classes.date}>{props.date}</p>
           <h2 className={classes.hero_head}>{props.title}</h2>
