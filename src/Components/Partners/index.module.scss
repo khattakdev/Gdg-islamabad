@@ -1,9 +1,11 @@
 .partners {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 90%;
+  margin: 0 auto;
+  padding: 0 4rem;
+  width: 85%;
   margin-bottom: 50px;
   padding-left: 5rem;
   .hero_head {
@@ -34,9 +36,13 @@
     flex-wrap: wrap;
   }
   .partner_img {
-    height: 7.5rem;
+    height: 7.4rem;
     margin-right: 1.5rem;
     margin-top: 2rem;
-    //   width: 10rem;
+  }
+  .partner_img_big {
+    height: 5.4rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
   }
 }

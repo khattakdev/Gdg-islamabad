@@ -11,16 +11,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     p {
       font-size: 2rem;
       color: #3e4551;
+      margin-left: 2rem;
     }
   }
   .links {
-    font-size: 1.6rem;
+    // font-size: 1.6rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     &_list {
       list-style-type: none;
       padding-left: 0;
@@ -37,5 +40,11 @@
       color: #3e4551;
       font-size: 1.8rem;
     }
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .footer {
+    width: 80%;
   }
 }

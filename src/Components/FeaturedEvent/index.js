@@ -26,7 +26,10 @@ const index = () => {
             community proudly holds an annual DevFest, Women Techmakers, and
             other events as part of its community building activities.
           </p>
-          <a href="#" className={classes.learn_more}>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeLErJYBogrcKlU2roW9H4M4HaQQh6mEfjujk06cti4E_iI7g/viewform"
+            className={classes.learn_more}
+          >
             Register Now
           </a>
         </div>

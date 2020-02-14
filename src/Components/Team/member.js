@@ -6,22 +6,25 @@ import { ReactComponent as FacebookIcon } from "../../assets/facebook.svg";
 import { ReactComponent as TwitterIcon } from "../../assets/twitter.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 
-const member = () => {
+const member = props => {
   return (
     <Box className={classes.member}>
       <div className={classes.box}>
         {/* <img className={classes.box_img} src={TeamImg} alt="Team Member" /> */}
-        <div className={classes.box_img}></div>
-        <h4 className={classes.box_head}>Javed Akhtar</h4>
-        <p className={classes.box_content}>Javed Akhtar</p>
+        <div
+          style={{ backgroundImage: `url(${props.img})` }}
+          className={classes.box_img}
+        ></div>
+        <h4 className={classes.box_head}>{props.name}</h4>
+        <p className={classes.box_content}>{props.title}</p>
         <div className={classes.box_icons}>
-          <a href="#">
+          <a href={props.facebook}>
             <FacebookIcon className={classes.box_icon} />
           </a>
-          <a href="#">
+          <a href={props.twitter}>
             <TwitterIcon className={classes.box_icon} />
           </a>
-          <a href="#">
+          <a href={props.linkedin}>
             <LinkedinIcon className={classes.box_icon} />
           </a>
         </div>

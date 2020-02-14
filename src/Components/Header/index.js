@@ -11,18 +11,18 @@ const index = () => {
   return (
     <header className={classes.header}>
       <Grid alignItems="center" className={classes.grid} container spacing={3}>
-        <Grid alignItems="center" justify="center" item xs={12} sm={6} md={4}>
+        <Grid alignItems="center" justify="center" item xs={12} md={4}>
           <HeadSvg className={classes.svg} />
         </Grid>
-        <Grid alignItems="center" item xs={12} sm={7}>
+        <Grid alignItems="center" item xs={12} md={7}>
           <h2 className={classes.hero_head}>
             Creating meaningful experiences for <span>Everyone</span>
           </h2>
           <p className={classes.hero_body}>
-            GDG Islamabad is a local community-run meetup for developers
-            interested in resources and technology from Google Developers. The
-            community proudly holds an annual DevFest, Women Techmakers, and
-            other events as part of its community-building activities.
+            GDG Islamabad is a local community for developers interested in
+            resources and technology from Google Developers. The community
+            proudly holds an annual DevFest, Women Techmakers, and other events
+            as part of its community-building activities.
           </p>
           <div className={classes.hero_button}>
             <a href="#" className={classes.hero_button_learn}>
@@ -40,14 +40,14 @@ const index = () => {
         container
         spacing={2}
       >
-        <Grid className={classes.bottom_hero} item xs={12} sm={4}>
+        <Grid className={classes.bottom_hero} item xs={12} md={4}>
           <h3 className={classes.bottom_top}>Core Values</h3>
           <p className={classes.bottom_body}>
             Google Developer Groups (GDGs) are for developers who are interested
             in Google's developer technology.
           </p>
         </Grid>
-        <Grid item xs={12} sm={8}>
+        <Grid item xs={12} md={8}>
           <Grid
             justify="center"
             container

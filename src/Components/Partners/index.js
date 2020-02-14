@@ -31,15 +31,15 @@ const index = () => {
       <div className={classes.partners_list}>
         <img className={classes.partner_img} src={google} alt="Partner" />
         <img className={classes.partner_img} src={pwc} alt="Partner" />
-        <img className={classes.partner_img} src={snp} alt="Partner" />
+        <img className={classes.partner_img_big} src={snp} alt="Partner" />
         <img className={classes.partner_img} src={telenor} alt="Partner" />
         <img className={classes.partner_img} src={sg} alt="Partner" />
         <img className={classes.partner_img} src={codepak} alt="Partner" />
-        <img className={classes.partner_img} src={demo} alt="Partner" />
+        <img className={classes.partner_img_big} src={demo} alt="Partner" />
         <img className={classes.partner_img} src={womenintech} alt="Partner" />
         <img className={classes.partner_img} src={knct} alt="Partner" />
         <img className={classes.partner_img} src={nic} alt="Partner" />
-        <img className={classes.partner_img} src={bentley} alt="Partner" />
+        <img className={classes.partner_img_big} src={bentley} alt="Partner" />
       </div>
     </div>
   );
