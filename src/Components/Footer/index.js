@@ -5,17 +5,6 @@ import classes from "./index.module.scss";
 const index = () => {
   return (
     <footer className={classes.footer}>
-      {/* <Grid className={classes.links_grid} container spacing={10}>
-        <Grid item xs={4}>
-          <h2>Links</h2>
-        </Grid>
-        <Grid item xs={4}>
-          <h2>Links</h2>
-        </Grid>
-        <Grid item xs={4}>
-          <h2>Links</h2>
-        </Grid>
-      </Grid> */}
       <div className={classes.links}>
         <ul className={classes.links_list}>
           <li className={classes.links_primary}>About</li>
@@ -39,7 +28,9 @@ const index = () => {
       <Divider />
       <div className={classes.footer_nav}>
         <h2 className={classes.footer_hero}>GDG Islamabad</h2>
-        <p>Code of Conduct</p>
+        <a href="https://docs.google.com/document/d/1VPCF2_Affn4cp_nC5WA_rkUZrVmhqs9vGlre0tXtpXU/edit#heading=h.5mbzjti148z7">
+          Code of Conduct
+        </a>
         <p>Terms & Services</p>
         <p>Community Guidlines</p>
       </div>

@@ -3,6 +3,14 @@
   margin: 0 auto;
   margin-top: 15rem;
 
+  @media only screen and (max-width: 1150px) {
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 90%;
+  }
+
   &_hero {
     color: #000000dd;
     font-size: 2.5rem;
@@ -12,8 +20,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
-    p {
+    p,
+    a {
       font-size: 2rem;
       color: #3e4551;
       margin-left: 2rem;
@@ -27,6 +35,7 @@
     &_list {
       list-style-type: none;
       padding-left: 0;
+      margin-right: 3rem;
     }
 
     &_primary {
@@ -40,11 +49,5 @@
       color: #3e4551;
       font-size: 1.8rem;
     }
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .footer {
-    width: 80%;
   }
 }

@@ -19,14 +19,14 @@ const index = props => {
         >
           Home
         </NavLink>
-        <NavLink
+        {/* <NavLink
           className={classes.navLink}
           activeClassName={classes.navLink_active}
           exact
           to="/shop"
         >
           Shop
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );

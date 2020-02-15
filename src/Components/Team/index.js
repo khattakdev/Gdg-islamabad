@@ -57,7 +57,7 @@ const index = () => {
         <TeamMember
           img={Masood}
           name="Muhammed Bin Masood"
-          title="Strategic Lead"
+          title="Strategy Lead"
           twitter="https://twitter.com/muhammadbmasood"
           linkedin="https://www.linkedin.com/in/muhammad-bin-masood-4535057b/"
         />
@@ -77,7 +77,7 @@ const index = () => {
         <TeamMember
           img={Huzaifa}
           name="Houzaif Khan"
-          title="Technical LEad"
+          title="Technical Lead"
           twitter="https://twitter.com/HouzaifKhan?s=08"
           linkedin="https://www.linkedin.com/in/huzaifa-habib-0250a2177"
         />
@@ -97,7 +97,7 @@ const index = () => {
         <TeamMember
           img={Ayesha}
           name="Ayesha Akhtar"
-          title="Workshops Lead"
+          title="Technical Lead"
           linkedin="https://www.linkedin.com/in/ayesha-akhtar-336033119/"
         />
         <TeamMember

@@ -25,7 +25,10 @@ const index = () => {
             as part of its community-building activities.
           </p>
           <div className={classes.hero_button}>
-            <a href="#" className={classes.hero_button_learn}>
+            <a
+              href="https://developers.google.com/"
+              className={classes.hero_button_learn}
+            >
               Learn More
             </a>
             <a
