@@ -34,17 +34,18 @@
 
   .partners_list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
   .partner_img {
     height: 7.4rem;
-    margin-right: 1.5rem;
+    margin-right: 3rem;
     margin-top: 2rem;
   }
   .partner_img_big {
     height: 5.4rem;
-    margin-right: 1.5rem;
+    margin-right: 3rem;
     margin-top: 2rem;
   }
 }

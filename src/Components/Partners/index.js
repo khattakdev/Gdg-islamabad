@@ -10,7 +10,10 @@ import codepak from "../../assets/codepak.png";
 import demo from "../../assets/demo.png";
 import womenintech from "../../assets/womenintech.png";
 import knct from "../../assets/knct.png";
-import nic from "../../assets/nic.png";
+import nic from "../../assets/nic.jpg";
+import jazz from "../../assets/jazz.png";
+import ministry from "../../assets/ministry.jpg";
+import ignite from "../../assets/ignite.jpg";
 import bentley from "../../assets/bentley.png";
 
 const index = () => {
@@ -39,6 +42,9 @@ const index = () => {
         <img className={classes.partner_img} src={womenintech} alt="Partner" />
         <img className={classes.partner_img} src={knct} alt="Partner" />
         <img className={classes.partner_img} src={nic} alt="Partner" />
+        <img className={classes.partner_img} src={jazz} alt="Partner" />
+        <img className={classes.partner_img} src={ministry} alt="Partner" />
+        <img className={classes.partner_img} src={ignite} alt="Partner" />
         <img className={classes.partner_img_big} src={bentley} alt="Partner" />
       </div>
     </div>
