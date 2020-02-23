@@ -27,7 +27,7 @@ const index = () => {
       </p>
       <p className={classes.hero_content}>
         If you are interested in being showcased throughout, contact{" "}
-        <span>gdgislamabad@gmail.com</span> to discuss sponsorship
+        <span>gdgislamabadofficial@gmail.com</span> to discuss sponsorship
         opportunities.
       </p>
 

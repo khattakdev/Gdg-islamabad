@@ -3,6 +3,26 @@
   margin: 0 auto;
   margin-top: 15rem;
 
+  .links {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+      margin-right: 30px;
+    }
+    h4 {
+      font-size: 1.6rem;
+      margin: 0;
+      margin-right: 50px;
+    }
+  }
+  .icon {
+    height: 30px;
+    width: 30px;
+  }
+
   @media only screen and (max-width: 1150px) {
     width: 80%;
   }
@@ -25,29 +45,6 @@
       font-size: 2rem;
       color: #3e4551;
       margin-left: 2rem;
-    }
-  }
-  .links {
-    // font-size: 1.6rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    &_list {
-      list-style-type: none;
-      padding-left: 0;
-      margin-right: 3rem;
-    }
-
-    &_primary {
-      font-size: 2rem;
-      font-weight: bold;
-      color: #000000dd;
-      margin-bottom: 15px;
-    }
-    &_secondary {
-      margin-bottom: 10px;
-      color: #3e4551;
-      font-size: 1.8rem;
     }
   }
 }
