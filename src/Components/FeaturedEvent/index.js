@@ -11,7 +11,8 @@ const index = () => {
       </Grid>
       <Grid item sm={12} md={6}>
         <div className={classes.featured_content}>
-          <p className={classes.date}>21/03/2020</p>
+          {/* <p className={classes.date}>21/03/2020</p> */}
+          <p className={classes.date}>POSTPONED</p>
           <h2 className={classes.hero_head}>IWD Women Techmakers 2020</h2>
           {/* <div className={classes.location}>
             <LocationIcon className={classes.location_icon} />
